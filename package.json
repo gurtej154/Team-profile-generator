@@ -1,0 +1,23 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Creates a team-profile from user input",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurtej154/Team-profile-generator.git"
+  },
+  "author": "Gurtej Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurtej154/Team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/gurtej154/Team-profile-generator#readme"
+}

@@ -14,9 +14,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose test/*",
     "start": "node index.js",
-    "rest": "node reset.js"
+    "reset": "node reset.js"
   },
   "repository": {
     "type": "git",

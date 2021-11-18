@@ -1,9 +1,9 @@
 const inquirer = require("inquirer");
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+const Manager = require("./lib/manager");
+const Engineer = require("./lib/engineer");
+const Intern = require("./lib/intern");
 const fs = require("fs");
-const generateTeam = require("./src/generateTeam");
+const generateTeam = require("./src/TeamProfile.js");
 
 team = [];
 const managerQuestions = () => {

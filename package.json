@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates a team profile of a company",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "node": "^17.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurtej154/Team-profile-generator.git"
+  },
+  "author": "Gurtej Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurtej154/Team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/gurtej154/Team-profile-generator#readme"
+}

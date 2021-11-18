@@ -21,7 +21,7 @@
 
 Generates a team profile for companies with multiple teams, departments or sub-contractors to use in various types of scenarios.
 
-![Walk-through](/Walkthrough.gif)
+![Walk-through](assets/Walkthrough.gif)
 
 ---
 
@@ -38,7 +38,7 @@ Install the following applications to create a team profile;
 ## Usage
 
 Initiate the command line in terminal and run node index.js to generate a team profile html file.
-![Terminal](/Terminal.png)
+![Screenshot](assets/Team.png)
 
 ---
 
@@ -50,7 +50,7 @@ N/A
 
 ## Tests
 
-[View walk-through](https://drive.google.com/file/d/1L5k8N-2Cif_HyAoERmg2Yt4xlKO-nlQi/view?usp=sharing)
+[View walk-through](https://drive.google.com/file/d/1hdD7WPjr-YsEvbgtupFJ50iYeewArM_0/view?usp=sharing)
 
 ---
 

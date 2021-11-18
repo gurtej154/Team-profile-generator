@@ -49,7 +49,7 @@ let generateManagerCard = (Manager) => {
     <div class="card-body">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${Manager.getId()}</li>
-        <li class="list-group-item">Email: ${Manager.getEmail()}</li>
+        <li class="list-group-item">Email: <a href ="mailto:${Manager.getEmail()}">${Manager.getEmail()}</a></li>
         <li class="list-group-item">Office Number: ${Manager.getOfficeNumber()}</li>
       </ul>
     </div>
@@ -67,8 +67,8 @@ let generateEngineerCard = (Engineer) => {
     <div class="card-body">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${Engineer.getId()}</li>
-        <li class="list-group-item">Email: ${Engineer.getEmail()}</li>
-        <li class="list-group-item">GitHub: ${Engineer.getGithub()}</li>
+        <li class="list-group-item">Email: <a href ="mailto:${Engineer.getEmail()}">${Engineer.getEmail()}</a></li>
+        <li class="list-group-item">GitHub: <a href="http://www.github.com/${Engineer.getGithub()}" target="_blank">${Engineer.getGithub()}</a></li>
       </ul>
     </div>
   </div>

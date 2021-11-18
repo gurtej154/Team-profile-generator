@@ -85,7 +85,7 @@ let generateInternCard = (Intern) => {
     <div class="card-body">
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${Intern.getId()}</li>
-        <li class="list-group-item">Email: ${Intern.getEmail()}</li>
+        <li class="list-group-item">Email: <a href ="mailto:${Intern.getEmail()}">${Intern.getEmail()}</a></li>
         <li class="list-group-item">School: ${Intern.getSchool()}</li>
       </ul>
     </div>
@@ -107,7 +107,7 @@ function generateTeam(team) {
   <title>My Team</title>
 </head>
 <body>
-<div class="jumbotron jumbotron-fluid bg-warning">
+<div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4 text-center">My Team</h1>
   </div>
